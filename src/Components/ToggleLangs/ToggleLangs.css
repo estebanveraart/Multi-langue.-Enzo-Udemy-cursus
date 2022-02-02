@@ -14,6 +14,9 @@
     margin: 5px;
     cursor: pointer;
 }
+.nlflag{
+    border-radius: 30px;
+}
 
 @media screen and (max-width: 600px){
 
@@ -23,6 +26,9 @@
         top: 0px;
         left: 0px;
         flex-direction: row;
+    }
+    .nlflag{
+        border-radius: 30px;
     }
 
 }

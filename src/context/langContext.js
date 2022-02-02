@@ -2,7 +2,7 @@ import React, {createContext, useState} from 'react'
 
 export const Context = createContext();
 
-const supportedLangs = ['EN', 'FR', 'ES'];
+const supportedLangs = ['EN', 'FR', 'ES', 'NL'];
 
 let browserLang = navigator.language.slice(0,2).toUpperCase();
 

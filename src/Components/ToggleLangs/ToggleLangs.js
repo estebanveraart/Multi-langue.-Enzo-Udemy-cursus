@@ -3,6 +3,7 @@ import { Context } from '../../context/langContext';
 import FrenchFlag from '../../assets/france.svg';
 import SpanishFlag from '../../assets/spain.svg';
 import EnglishFlag from '../../assets/united-kingdom.svg';
+import DutchFlag from '../../assets/nl.svg'
 import './ToggleLangs.css';
 
 export default function ToggleLangs() {
@@ -14,6 +15,7 @@ export default function ToggleLangs() {
             <img onClick={() => toggleLang('FR')} src={FrenchFlag} alt='french flag'/>
             <img onClick={() => toggleLang('EN')} src={EnglishFlag} alt='english flag' />
             <img onClick={() => toggleLang('ES')} src={SpanishFlag} alt='spanish flag' />
+            <img onClick={() => toggleLang('NL')} src={DutchFlag} alt='dutch flag' className='nlflag'/>
         </div>
     )
 }
