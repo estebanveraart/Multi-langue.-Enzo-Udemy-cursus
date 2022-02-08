@@ -1,6 +1,6 @@
 # This is a learning project, All credits go to Enzo Ustariz whose course is available on Udemy : "coding 10 projects with React".
 
-find the project deployed at : multi-step-validation-enzo-udemy-cursus.vercel.app
+find the project deployed at : [Multi Langue](https://multi-step-validation-enzo-udemy-cursus.vercel.app/)
 
 ## Getting Started with Create React App
 
